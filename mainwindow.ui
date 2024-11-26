@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1118</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="CPU">
+      <property name="title">
+       <string>CPU</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="2">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>PC</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QLineEdit" name="PC">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QTableWidget" name="guiRegister">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="editTriggers">
+          <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+         </property>
+         <row>
+          <property name="text">
+           <string>R0</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R5</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R6</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R7</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R8</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>R9</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RA</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RB</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RC</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RD</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RE</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>RF</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>REGISTER</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>IR</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLineEdit" name="IR">
+            <property name="readOnly">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string>Memory</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="guiMemory">
+         <property name="editTriggers">
+          <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+         </property>
+         <row>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>A</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>B</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>C</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>D</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>E</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>F</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>0</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>6</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>7</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>8</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>9</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>A</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>B</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>C</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>D</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>E</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>F</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="instruction">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>INSTRUCTION</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLineEdit" name="input">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="store">
+         <property name="text">
+          <string>STORE</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="run">
+        <property name="text">
+         <string>Run</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="resetCPU">
+        <property name="text">
+         <string>Reset CPU</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="clearMemory">
+        <property name="text">
+         <string>Reset Memory</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionImport_File">
+   <property name="text">
+    <string>Import File</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
